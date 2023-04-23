@@ -1,4 +1,5 @@
 # credit-risk-classification
+The credit_risk_classification.ipynb is located in the folder of Credit_Risk
 
 ## Overview of the Analysis
 
