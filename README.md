@@ -11,7 +11,7 @@ The model separates the y variable (the labels `loan_status`), and the X variabl
 
 The dataset is split into training and testing datasets by using train_test_split. Then a logistic regression model(`LogisticRegression`) is applied to the training data. And make a prediction using the tasting data.
 
-For model evaluation, ‘accuracy_score’, ‘confusion_matrix’, and ‘classification_report’ are used to evaluate the model’s performance.
+For model evaluation, ‘balanced_accuracy_score’, ‘confusion_matrix’, and ‘classification_report’ are used to evaluate the model’s performance.
 
 To improve the prediction precision, the dataset is over-sampled by using RandomOverSampler then also use a logistic regression model and three evaluation methods mentioned above to evaluate again.
 
